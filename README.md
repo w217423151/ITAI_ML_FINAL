@@ -44,3 +44,28 @@ Recall:    0.624
 F1 Score:  0.654
 ROC–AUC:   0.888
 
+# Kim Nguyen
+K-Nearest Neighbors (KNN), Support Vector Classifier (SVC), and XGBoost are three popular machine learning models, each with unique strengths and weaknesses. KNN is a simple, instance-based method that makes predictions by comparing new data to its closest neighbors, but it can be slow and sensitive to irrelevant features. SVC focuses on finding the best separating boundary with maximum margin and performs well in high-dimensional spaces, though it can be slow to train and requires careful tuning of parameters. XGBoost is a powerful ensemble boosting algorithm known for its high accuracy and speed, especially on structured data, but it can be complex to tune and may overfit if not properly regularized. Together, these models represent a range from simple to highly sophisticated techniques used in modern machine learning.
+# XGBoost
+It builds tree one at a time, where each new tree reduces errors of previous trees. It also helps to prevent overfitting better than standard Gradient Boosting Machines. And it works well with non-linear data.
+Accuracy:  0.826
+Precision: 0.676
+Recall:    0.582
+F1 Score:  0.625
+ROC–AUC:   0.878
+# K-Nearest Neighbors Classifier
+This model works well with small and low-dimensional dataset. It is very simple and easy to understand.
+Accuracy:  0.804
+Precision: 0.625
+Recall:    0.536
+F1 Score:  0.577
+ROC–AUC:   0.819
+# Support Vector Classifier (SVC)
+This is effective for clean, well-separated datasets. It is suitable for datasets with many features. It makes decisions based on a small subset of important data points.
+Accuracy:  0.754
+Precision: 0.504
+Recall:    0.830
+F1 Score:  0.627
+ROC–AUC:   0.849
+
+
